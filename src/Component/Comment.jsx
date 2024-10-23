@@ -7,4 +7,4 @@ function Comment() {
         </div>
     )
 }
-export default Comment;
+export default Comment

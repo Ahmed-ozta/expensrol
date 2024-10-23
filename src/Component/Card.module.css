@@ -1,4 +1,4 @@
-.container{
+.container {
     width: 310px;
     height: 170px;
     border: 1px solid;
@@ -7,18 +7,28 @@
     background-color: #213ABB;
 
 }
-.container img{
+
+.container img {
     float: left;
     margin-right: 8px;
     width: 84px;
-    margin-left:20px ;
+    margin-left: 20px;
 
 }
-.container h3{
+
+.container h3 {
     text-align: center;
 }
-.container p{
+
+.container p {
     margin-top: 17px;
     margin-right: 5px;
-    
+
+}
+
+@media(max-width:750px) {
+    .container {
+        width: 100%;
+
+    }
 }
