@@ -15,7 +15,7 @@ function Review() {
     function section() {
         if (windowWidth > 1200) {
             return (
-                
+
                 Array.from({ length: 3 }, (_, i) => {
                     const commentIndex = index + i;
                     if (commentIndex < list_comment.length) {
@@ -93,9 +93,9 @@ function Review() {
             <div className={styles.main}>
                 <h2 className='extraBold whiteText'>Review</h2>
                 <div className={styles.commentSection}>
-                    <button onClick={indexDecrement}>&lt;</button>
+                    <button onClick={indexDecrement}><span>&larr;</span></button>
                     {section()}
-                    <button onClick={indexIncrement}>&gt;</button>
+                    <button onClick={indexIncrement}><span>&rarr;</span> </button>
                 </div>
             </div>
 
