@@ -1,15 +1,31 @@
-.review{
+.review {
     width: 100%;
     display: flex;
     justify-content: center;
     background-color: #213ABB;
 }
-.main{
-    width: 80%;
+
+.main {
+    width: 86%;
     max-width: 1440px;
+}
+.commentSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 95px;
+}
+.commentSection button{
+    font-size:67px ;
+    height: 67px;
+}
+.commentSection button:hover{
+    background-color: #213ABB;
 
 }
-.main h2{
-    font-size:40px ;
+
+.main h2 {
+    font-size: 40px;
     text-align: center;
+    margin-bottom: 53px;
 }
