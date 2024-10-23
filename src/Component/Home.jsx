@@ -1,6 +1,6 @@
 import Header from './Header.jsx'
 import Main from './Main.jsx'
-
+import Footer from './Footer.jsx';
 
 
 function Home() {
@@ -10,6 +10,7 @@ function Home() {
         <>
             <Header />
             <Main />
+            <Footer />
         </>
     );
 
