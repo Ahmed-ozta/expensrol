@@ -1,0 +1,15 @@
+.review{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #213ABB;
+}
+.main{
+    width: 80%;
+    max-width: 1440px;
+
+}
+.main h2{
+    font-size:40px ;
+    text-align: center;
+}

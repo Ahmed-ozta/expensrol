@@ -1,0 +1,26 @@
+.submain {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    background-color: #213ABB;
+}
+
+.main {
+    width: 86%;
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 154px;
+
+}
+.main img {
+    height: 154px;
+}
+
+@media (max-width:750px){
+    .main img{
+        display: none;
+    }
+}
