@@ -29,3 +29,14 @@
     position: absolute;
     bottom: 31px;
 }
+@media(max-width:500px) {
+    .container p {
+        font-size: 0.7em;
+
+    
+    }
+    .profil {
+        display: none;
+    }
+
+}

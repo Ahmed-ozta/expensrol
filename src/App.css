@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    cursor:default;
 }
 .whiteText{
     color: white;
@@ -21,6 +22,6 @@ button {
 }
 
 button:hover {
-    background-color: hwb(230 13% 07%);
+    background-color: #2143ed;
     cursor: pointer;
 }
