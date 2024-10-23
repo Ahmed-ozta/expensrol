@@ -1,0 +1,31 @@
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    background-color: black;
+}
+
+.footer {
+    width: 86%;
+    max-width: 1440px;
+    text-align: center;
+}
+
+.logo {
+    width: 75px;
+    margin: 71px;
+}
+
+.socialMedia  {
+    width: 37px;
+    
+}
+li{
+    display: inline-block;
+    margin-right: 33px;
+    margin-bottom: 13px;
+}
+.footer a{
+    cursor: pointer;
+}

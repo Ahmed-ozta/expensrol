@@ -3,6 +3,7 @@ import SubMain2 from './SubMain2.jsx'
 import Features from './Features.jsx'
 import Review from './Review.jsx'
 import SubMain3 from './SubMain3.jsx'
+import Footer from './Footer.jsx'
 
 
 function Main() {
@@ -16,6 +17,7 @@ function Main() {
             {/* there is an issues in button arrow not respecting the margin  */}
             <Review />
             <SubMain3 />
+            <Footer />
         </>
     )
 }
