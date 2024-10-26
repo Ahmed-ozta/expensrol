@@ -13,7 +13,7 @@ function Nav(props) {
                     <li className={props.prop5}><a><img src="Expensrol_icon\fi-rs-sign-in.svg" />Log out</a></li>
                 </ul>
                 <div className={styles.support}>
-                    <img src="Expensrol_image\Active Support-bro 1.svg" />
+                    <img src="Expensrol_image\Active Support-bro 1.svg" />j-54tt
                     <h3>need help feel <br />free to ask for support</h3>
                     <button>get Support</button>
                 </div>
