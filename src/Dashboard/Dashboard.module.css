@@ -50,16 +50,7 @@
     width: 22px;
 }
 
-.profil {
-    display: flex;
 
-}
-
-.profil img {
-    width: 42px;
-    margin-right: 10px;
-
-}
 
 /* ------data container--------- */
 .dataContainer {
@@ -185,7 +176,15 @@ td {
     height: 55px;
 }
 
-@media (max-width:800px) {
+@media (max-width:1100px) {
+    .dataContainer img {
+        width: 300px;
+    }
+    
+
+}
+
+@media (max-width:1000px) {
     .dataContainer {
         display: flex;
         flex-direction: column;
@@ -230,12 +229,14 @@ td {
         display: flex;
         flex-direction: column;
     }
-    .mainImg img{
+
+    .mainImg img {
         width: 90%;
         margin-top: 20px;
-        
+
     }
-    .dataContainer{
+
+    .dataContainer {
         margin-top: 20px;
     }
 }

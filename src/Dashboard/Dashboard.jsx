@@ -1,6 +1,7 @@
 import styles from './Dashboard.module.css'
 
 import Nav from './Nav.jsx'
+import Profil from './Profil.jsx'
 
 function Dashboard() {
     // the th of tables should sort the elements 
@@ -15,9 +16,7 @@ function Dashboard() {
                             <img src="Expensrol_image\Search_Magnifying_Glass.svg" />
                             <input type="text" placeholder='Search' />
                         </div>
-                        <div className={styles.profil}>
-                            <img src="Expensrol_image\abstract-user-flat-4 4.svg" /><p>Username</p>
-                        </div>
+                        <Profil />
                     </div>
                     <div className={styles.dataContainer}>
                         <div className={styles.data}>
