@@ -1,0 +1,181 @@
+.container {
+    display: flex;
+}
+
+.main {
+    background-color: #F3F3F3;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.subMain {
+    width: 86%;
+    max-width: 1440px;
+}
+
+/* --------header--------- */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+.search {
+    width: 406px;
+    height: 44px;
+    background-color: white;
+    display: flex;
+    padding-left: 14px;
+    border-radius: 17px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.search input {
+    border: none;
+    font-size: 20px;
+    width: 90%;
+}
+
+.search input:focus {
+    border: none;
+    outline: none;
+
+
+}
+
+.search img {
+    width: 22px;
+}
+
+.profil {
+    display: flex;
+
+}
+
+.profil img {
+    width: 42px;
+    margin-right: 10px;
+
+}
+
+/* ------data container--------- */
+.dataContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 71px;
+}
+
+.dataContainer img {
+    width: 360px;
+}
+
+.data {
+    width: 404px;
+    display: grid;
+    gap: 16px;
+
+
+}
+
+.data * * {
+    margin-left: 23px;
+}
+
+.data * {
+    position: relative;
+}
+
+.data * h2 {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.data * h3 {
+    font-size: 17px;
+    font-weight: bold;
+    position: absolute;
+    right: 13px;
+    bottom: 0px;
+    letter-spacing: 2px;
+
+}
+
+.data * p {
+    font-size: 13px;
+    margin-top: -10px;
+}
+
+.balance {
+    background-color: white;
+    width: 404px;
+    grid-row: 1;
+    grid-column: 1/3;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 8px;
+
+}
+
+
+.expense,
+.income {
+    width: 195px;
+    grid-row: 2;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 8px;
+}
+
+
+
+.income {
+    grid-column: 1;
+}
+
+.expense {
+    grid-column: 2;
+}
+
+/* -----transaction------ */
+.transaction {
+    margin-top: 36px;
+}
+.transaction h2{
+    font-size: 15px;
+}
+
+table {
+    text-align: center;
+    font-size: 15px;
+}
+
+th {
+    color: #C2CDD3;
+
+}
+
+th:nth-child(1) {
+    width: 69px;
+}
+
+th:nth-child(2) {
+    width: 132px;
+}
+
+th:nth-child(3) {
+    width: 215px;
+}
+
+th:nth-child(4) {
+    width: 218px;
+}
+
+th:nth-child(5) {
+    width: 155px;
+}
+
+td {
+    background-color: white;
+    height: 55px;
+}
