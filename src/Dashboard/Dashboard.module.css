@@ -1,5 +1,6 @@
 .container {
     display: flex;
+
 }
 
 .main {
@@ -23,7 +24,7 @@
 }
 
 .search {
-    width: 406px;
+    width: 404px;
     height: 44px;
     background-color: white;
     display: flex;
@@ -35,7 +36,7 @@
 .search input {
     border: none;
     font-size: 20px;
-    width: 90%;
+    width: 85%;
 }
 
 .search input:focus {
@@ -85,6 +86,7 @@
 
 .data * {
     position: relative;
+
 }
 
 .data * h2 {
@@ -114,6 +116,7 @@
     grid-column: 1/3;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     border-radius: 8px;
+    height: 141px;
 
 }
 
@@ -125,6 +128,7 @@
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     border-radius: 8px;
+    height: 141px;
 }
 
 
@@ -141,7 +145,8 @@
 .transaction {
     margin-top: 36px;
 }
-.transaction h2{
+
+.transaction h2 {
     font-size: 15px;
 }
 
@@ -178,4 +183,59 @@ th:nth-child(5) {
 td {
     background-color: white;
     height: 55px;
+}
+
+@media (max-width:800px) {
+    .dataContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width:600px) {
+    .data {
+
+        gap: 5px;
+
+
+    }
+
+    .balance {
+        width: 80%;
+    }
+
+    .expense,
+    .income {
+        width: 75%;
+    }
+
+    .expense {
+        margin-left: -32px;
+    }
+
+    .search {
+        width: 150px;
+        padding-left: 0px;
+    }
+
+    .search input {
+        font-size: 15px;
+        width: 70%;
+    }
+}
+
+@media (max-width:500px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .mainImg img{
+        width: 90%;
+        margin-top: 20px;
+        
+    }
+    .dataContainer{
+        margin-top: 20px;
+    }
 }
