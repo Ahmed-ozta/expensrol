@@ -2,7 +2,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    height: 353px;
+    padding-bottom: 10px;
 }
 
 .container {
@@ -60,7 +60,7 @@
 @media(max-width:290px) {
     .container h2 {
         font-size: 30px;
-        width: 250pxpx;
+        width: 250px;
 
     }
 

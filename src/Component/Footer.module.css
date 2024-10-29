@@ -2,7 +2,7 @@ footer {
     width: 100%;
     display: flex;
     justify-content: center;
-    height: 350px;
+
     background-color: black;
 }
 
@@ -14,7 +14,7 @@ footer {
 
 .logo {
     width: 75px;
-    margin: 71px;
+    margin: 30px;
 }
 
 .socialMedia  {

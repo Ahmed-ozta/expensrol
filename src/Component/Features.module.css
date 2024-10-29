@@ -13,28 +13,29 @@
 .main h2 {
     text-align: center;
     font-size: 40px;
-    margin-bottom:86px;
+    margin-bottom: 86px;
 }
 
 .cards {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    grid-template-rows: auto; 
-    gap: 67px; 
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 40px;
     margin-bottom: 115px;
 }
 
 
-@media(max-width:1165px){
+@media(max-width:1165px) {
     .cards {
         display: grid;
-        grid-template-columns: repeat(2, 1fr); 
-        grid-template-rows: auto; 
-        gap: 10px; 
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        gap: 10px;
         margin-bottom: 50px;
     }
 }
-@media(max-width:750px){
+
+@media(max-width:750px) {
     .cards {
         display: flex;
         flex-direction: column;
