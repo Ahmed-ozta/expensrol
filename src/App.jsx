@@ -8,10 +8,11 @@ import AddExpense from '/src/Dashboard/AddExpense.jsx'
 import FilterExpense from './Dashboard/FilterExpense.jsx';
 import FilterIncome from './Dashboard/FilterIncome.jsx';
 import Settings from './Dashboard/Settings.jsx';
+import Support from './Dashboard/Support.jsx';
 function App() {
   return (
     <>
-      <Settings />
+      <Support />
 
     </>
 

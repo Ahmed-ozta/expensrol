@@ -1,8 +1,6 @@
 import styles from './Transaction.module.css'
 import Nav from './Nav.jsx'
-import Profil from './Profil.jsx'
-
-function Settings() {
+function Support() {
 
     return (
         <div className={styles.main}>
@@ -36,4 +34,4 @@ function Settings() {
     )
 
 }
-export default Settings
+export default Support

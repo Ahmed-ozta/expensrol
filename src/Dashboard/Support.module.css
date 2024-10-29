@@ -1,0 +1,141 @@
+.main {
+    display: flex;
+}
+
+.container {
+    background-color: #F3F3F3;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.subContainer {
+    width: 86%;
+    max-width: 1440px;
+}
+
+.profil {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ---------transaction--------- */
+
+/* ------formulaire-------- */
+.inputs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+
+
+.img img {
+    width: 420px;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+.form * {
+    display: block;
+}
+
+.form label {
+    font-size: 25px;
+    color: #151515;
+    margin-top: 10px;
+    margin-bottom: 16px;
+
+}
+
+
+
+.form input[type="submit"] {
+    width: 100px;
+    height: 40px;
+    margin-top: 14px;
+    background-color: #213ABB;
+    color: white;
+    border: none;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+.form input[type="submit"]:hover {
+    background-color: hsl(230, 70%, 63%);
+    cursor: pointer;
+}
+
+textarea {
+    padding: 30px;
+    border-radius: 8px;
+    border: none;
+    font-size: 15px;
+    width: 350px;
+    height: 340px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    resize: none;
+}
+
+textarea:focus {
+    border: none;
+    outline: none;
+}
+
+
+@media (max-width:1100px) {
+    .img img {
+        width: 350px;
+    }
+
+
+}
+
+@media (max-width:1000px) {
+    .inputs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 45px;
+    }
+
+    .inputs2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 45px;
+    }
+
+
+}
+
+@media (max-width:500px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .subContainer {
+        width: 95%;
+    }
+
+    .img img {
+        width: 350px;
+    }
+
+    textarea {
+        width: 250px;
+    }
+
+
+}

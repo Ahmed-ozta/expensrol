@@ -13,7 +13,7 @@ nav {
 
 .smallContainer {
     display: none;
-    
+
 }
 
 .logo {
@@ -79,6 +79,10 @@ button {
 
 #selcted a:hover {
     text-decoration: none;
+}
+
+.empty {
+    display: none;
 }
 
 /* ==========small devices======= */
