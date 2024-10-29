@@ -1,5 +1,5 @@
-import Home from './Component/Home.jsx'
 import './App.css'
+import Home from './Component/Home.jsx'
 import FormSignUp from './Component/FormSignUp.jsx';
 import FormSignIn from './Component/FormSignIn.jsx';
 import Dashboard from '/src/Dashboard/Dashboard.jsx'
@@ -13,7 +13,7 @@ import Inbox from './Dashboard/Inbox.jsx';
 function App() {
   return (
     <>
-      <Inbox />
+      <AddIncome />
 
     </>
 
