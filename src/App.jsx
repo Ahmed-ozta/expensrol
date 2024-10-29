@@ -9,10 +9,11 @@ import FilterExpense from './Dashboard/FilterExpense.jsx';
 import FilterIncome from './Dashboard/FilterIncome.jsx';
 import Settings from './Dashboard/Settings.jsx';
 import Support from './Dashboard/Support.jsx';
+import Inbox from './Dashboard/Inbox.jsx';
 function App() {
   return (
     <>
-      <Support />
+      <Inbox />
 
     </>
 
