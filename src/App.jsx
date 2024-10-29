@@ -13,7 +13,7 @@ import Inbox from './Dashboard/Inbox.jsx';
 function App() {
   return (
     <>
-      <Home />
+      <Inbox />
 
     </>
 

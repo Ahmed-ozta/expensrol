@@ -9,8 +9,9 @@ function Settings() {
             <div className={styles.container}>
                 <div className={styles.subContainer}>
                     <div className={styles.title}>
-                        <h1>Settings</h1>
-                        <Profil />
+                        <div><h1>Support</h1></div>
+                        <div className={styles.profil}><Profil /></div>
+
 
                     </div>
                     <hr />
@@ -18,8 +19,8 @@ function Settings() {
                         <div className={styles.form}>
                             <form>
                                 <label>Message</label>
-                                <textarea  placeholder="write your nessage here" />
-                                <input type="submit" value="Submit"/>
+                                <textarea placeholder="write your nessage here" />
+                                <input type="submit" value="Submit" />
                             </form>
                         </div>
                         <div className={styles.img}>

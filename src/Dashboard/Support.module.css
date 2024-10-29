@@ -15,9 +15,7 @@
 }
 
 .profil {
-    display: flex;
-    justify-content: flex-end;
-
+    margin-top: 15px;
 }
 
 .title {

@@ -9,7 +9,7 @@ function Inbox() {
                 <div className={styles.subContainer}>
                     <div className={styles.title}>
                         <h1>Inbox</h1>
-                        <Profil />
+                        <div className={styles.profil}><Profil /></div>
 
                     </div>
                     <hr />
