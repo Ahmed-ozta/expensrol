@@ -3,7 +3,7 @@ nav {
 
     display: flex;
     justify-content: center;
-    height: 800px;
+
 }
 
 .container {
@@ -13,12 +13,14 @@ nav {
 
 .smallContainer {
     display: none;
+    
 }
 
 .logo {
-    margin-top: 55px;
+    /* margin-top: 55px; */
+    margin-top: 30px;
     margin-bottom: 40px;
-    width: 238px;
+    width: 220px;
 }
 
 .container ul {
@@ -28,7 +30,7 @@ nav {
 
 .container li {
     display: block;
-    font-size: 17px;
+    font-size: 15px;
 }
 
 .container li img {
@@ -48,6 +50,10 @@ nav {
     text-align: center;
     border-radius: 8px;
     margin-top: 40px;
+}
+
+.support img {
+    width: 220px;
 }
 
 .support h3,
@@ -122,11 +128,10 @@ button {
     }
 
     .smallContainer {
-        width: 86%;
+        width: 95%;
         display: flex;
         flex-direction: row;
-        justify-content:space-between
-
+        justify-content: space-between
     }
 
     .smallContainer ul {
@@ -142,9 +147,10 @@ button {
         width: 20px;
         margin-right: 0px;
     }
+
     .logo {
         margin-top: 0px;
         margin-bottom: 0px;
     }
-    
+
 }
