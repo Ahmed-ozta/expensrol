@@ -15,12 +15,19 @@
     height: 154px;
 
 }
+
 .main img {
     height: 154px;
 }
 
-@media (max-width:750px){
-    .main img{
+@media (max-width:750px) {
+    .main img {
         display: none;
+    }
+}
+
+@media (max-width:500px) {
+    .main {
+        width: 95%;
     }
 }
