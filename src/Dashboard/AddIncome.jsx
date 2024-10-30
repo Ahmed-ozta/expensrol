@@ -1,6 +1,7 @@
 import styles from './Transaction.module.css'
 import Nav from './Nav.jsx'
 import Profil from './Profil.jsx'
+import { Link } from 'react-router-dom'
 
 function AddIncome() {
 
@@ -15,7 +16,7 @@ function AddIncome() {
 
                     <div className={styles.transaction}>
                         <button className={styles.income} disabled>Income</button>
-                        <button className={styles.expense}>Expense</button>
+                        <Link to="/AddExpense" className='custom-link2' ><button className={styles.expense} >Expense</button></Link>
                     </div>
                     <div className={styles.inputs}>
                         <div className={styles.form}>

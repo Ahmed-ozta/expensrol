@@ -2,6 +2,7 @@
 import styles from './Filter.module.css';
 import Nav from './Nav.jsx';
 import Profil from './Profil.jsx'
+import { Link } from 'react-router-dom';
 
 function FilterExpense() {
     return (
@@ -14,7 +15,7 @@ function FilterExpense() {
                     </div>
 
                     <div className={styles.transaction}>
-                        <button className={styles.income2} >Income</button>
+                        <Link to="/AddIncome" className='custom-link2' ><button className={styles.income2} >Income</button></Link>
                         <button className={styles.expense2} disabled>Expense</button>
                     </div>
                     <div className={styles.categories}>

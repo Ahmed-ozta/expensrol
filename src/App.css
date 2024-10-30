@@ -1,8 +1,9 @@
 body {
     margin: 0px;
-    cursor:default;
+    cursor: default;
 }
-.whiteText{
+
+.whiteText {
     color: white;
 }
 
@@ -24,4 +25,18 @@ button {
 button:hover {
     background-color: #2143ed;
     cursor: pointer;
+}
+
+.custom-link {
+    color: white;
+    text-decoration: none;
+}
+
+.custom-link2 {
+    color: #213ABB;
+    text-decoration: none;
+}
+.custom-link3 {
+    color: #151515;
+    text-decoration: none;
 }

@@ -1,4 +1,5 @@
 import styles from './Header.module.css'
+import { Link } from 'react-router-dom'
 
 function Header() {
 
@@ -6,7 +7,7 @@ function Header() {
         <header>
             <div className={styles.header}>
                 <img src="EXPENSROL LOGO\SVG\HORIZONTAL WHITE.svg" />
-                <button className='extraBold'>Sign in</button>
+                <button className='extraBold'><Link to="/FormSignIn" className="custom-link">Sign in</Link></button>
             </div>
         </header>
     )

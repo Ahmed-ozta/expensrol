@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom';
 import styles from './FormSignUp.module.css'
 
 function FormSignUp() {
@@ -20,8 +21,8 @@ function FormSignUp() {
                     <input type="text" placeholder='Username' value={username} onChange={(e) => setUsername(e.target.value)} />
                     <input type="password" placeholder='Password' value={password} onChange={(e) => setPassword(e.target.value)} />
                     <input type="password" placeholder='Confirm Password' value={confirm} onChange={(e) => setConfirm(e.target.value)} />
-                    <a className={styles.links} href="">i already have account</a>
-                    <button>Create an account</button>
+                    <Link className={styles.links} to="/FormSignIn">i already have account</Link>
+                    <button><Link to="/Dashboard" className="custom-link">Create an account</Link></button>
                 </div>
                 <div className={styles.image}>
                     <img src="Expensrol_image\Revenue-bro 1.svg" />

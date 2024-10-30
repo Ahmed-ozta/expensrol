@@ -2,6 +2,7 @@
 import styles from './Filter.module.css';
 import Nav from './Nav.jsx';
 import Profil from './Profil.jsx'
+import { Link } from 'react-router-dom';
 
 function FilterIncome() {
     return (
@@ -14,8 +15,8 @@ function FilterIncome() {
                     </div>
 
                     <div className={styles.transaction}>
-                        <button className={styles.income} >Income</button>
-                        <button className={styles.expense} disabled>Expense</button>
+                        <button className={styles.income} disabled>Income</button>
+                        <Link to="/AddExpense" className='custom-link2' ><button className={styles.expense} >Expense</button></Link>
                     </div>
                     <div className={styles.categories}>
                         {/* using for loop select the button selected and give it the class specified */}

@@ -1,6 +1,7 @@
 
 import { useState } from 'react';
 import styles from './FormSignIn.module.css'
+import { Link } from 'react-router-dom';
 function FormSignIn() {
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
@@ -19,8 +20,8 @@ function FormSignIn() {
                         <input type="text" placeholder='Username' value={username} onChange={(e) => setUsername(e.target.value)} />
                         <input type="password" placeholder='Password' value={password} onChange={(e) => setPassword(e.target.value)} />
 
-                        <a className={styles.links} href="">I don’t have an account.</a>
-                        <button>Create an account</button>
+                        <Link className={styles.links} to="/FormSignUp">I don’t have an account.</Link>
+                        <button><Link to="/Dashboard" className="custom-link">Sign in</Link></button>
                     </div>
 
 
