@@ -5,7 +5,7 @@ function Footer() {
             <div className={styles.footer}>
                 <img className={styles.logo} src="EXPENSROL LOGO\SVG\Group 42.svg" />
                 <ul>
-                    <li><a><img className='socialMedia' src="social media\Social Icons.svg" /></a></li>
+                    <li><a href="https://github.com/Ahmed-ozta"><img className='socialMedia' src="social media\Social Icons.svg" /></a></li>
                     <li><a><img className='socialMedia' src="social media\Social Icons (1).svg" /></a></li>
                     <li><a><img className='socialMedia' src="social media\Social Icons (2).svg" /></a></li>
                 </ul>

@@ -16,7 +16,7 @@ function FilterIncome() {
 
                     <div className={styles.transaction}>
                         <button className={styles.income} disabled>Income</button>
-                        <Link to="/AddExpense" className='custom-link2' ><button className={styles.expense} >Expense</button></Link>
+                        <Link to="/FilterExpense" className='custom-link2' ><button className={styles.expense} >Expense</button></Link>
                     </div>
                     <div className={styles.categories}>
                         {/* using for loop select the button selected and give it the class specified */}

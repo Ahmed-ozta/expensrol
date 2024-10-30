@@ -24,11 +24,11 @@ function Nav(props) {
             <div className={styles.smallContainer}>
                 <img className={styles.logo} src="EXPENSROL LOGO/SVG/ICON.svg" />
                 <ul>
-                    <li ><a id="selcted"><img src="Expensrol_icon/fi-rs-home (1).svg" /></a></li>
+                    <li ><Link to="/Dashboard" className="custom-link3"><img src="Expensrol_icon/fi-rs-home (1).svg" /></Link></li>
                     <li className={props.prop2}><Link to="/AddExpense" className="custom-link3"><img src="Expensrol_icon\fi-rs-add.svg" /></Link></li>
-                    <li className={props.prop3}><a><img src="Expensrol_icon/fi-rs-chat-arrow-grow.svg" /></a></li>
-                    <li className={props.prop4}><a><img src="Expensrol_icon/fi-rs-settings.svg" /></a></li>
-                    <li className={props.prop5}><a><img src="Expensrol_icon/fi-rs-sign-in.svg" /></a></li>
+                    <li className={props.prop3}><Link to="/FilterIncome" className="custom-link3"><img src="Expensrol_icon/fi-rs-chat-arrow-grow.svg" /></Link></li>
+                    <li className={props.prop4}><Link to="/Settings" className="custom-link3"><img src="Expensrol_icon/fi-rs-settings.svg" /></Link></li>
+                    <li className={props.prop5}><Link to="/" className="custom-link3"><img src="Expensrol_icon/fi-rs-sign-in.svg" /></Link></li>
                 </ul>
                 <div className={styles.support}>
                     <button>get Support</button>

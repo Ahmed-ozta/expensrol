@@ -15,7 +15,7 @@ function FilterExpense() {
                     </div>
 
                     <div className={styles.transaction}>
-                        <Link to="/AddIncome" className='custom-link2' ><button className={styles.income2} >Income</button></Link>
+                        <Link to="/FilterIncome" className='custom-link2' ><button className={styles.income2} >Income</button></Link>
                         <button className={styles.expense2} disabled>Expense</button>
                     </div>
                     <div className={styles.categories}>
